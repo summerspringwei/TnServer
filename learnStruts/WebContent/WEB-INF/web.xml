@@ -25,3 +25,4 @@
   </filter-mapping>
   
   </web-app>
+<!-- Struts2 通过使用Filter过滤器来拦截以jsp或者action为后缀的请求，并将这些请求交给相应的类去处理 -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="false" />
+   <!--  带有过滤器的action方法 -->
+    <package name="TnServer" namespace="/" extends="struts-default">
+    	<!-- <interceptors>
+            <interceptor name="checktrue" class="com.interceptor.Checklogin"/>
+            <interceptor-stack name="myCheck">
+            	<interceptor-ref name="defaultStack" />
+            	<interceptor-ref name="checktrue" />  
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="myCheck" />  
+        <global-results>
+            <result name="error">/dhlyc/dl.jsp</result>
+        </global-results>
+		
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error"/>
+        </global-exception-mappings> -->
+		<action name="sp*" class="spwh" method="sp{1}">
+		<result name="success">/spwh/sp{1}.jsp</result>
+		<result name="success1">/spwh/spzs.jsp</result>
+		</action>
+    </package>
+    
+    
+    <!-- 登陆方法无过滤器的 -->
+	<package name="defult" namespace="" extends="struts-default">
+    <result-types>
+            <result-type name="json" class="org.apache.struts2.json.JSONResult"/>
+        </result-types>
+
+		<action name="login_*" class="login" method="{1}">
+		<result type="json" />
+		</action>
+		<action name="sj_*" class="sjwh" method="{1}">
+		<result type="json" />
+		</action>
+		
+    </package>
+
+    <!-- Add packages here -->
+
+</struts>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	 <!--  配置数据源 -->
+	<bean id="dataSource"
+        class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName"
+            value="com.ibm.db2.jcc.DB2Driver">
+        </property>
+        <property name="url" value="jdbc:db2://192.168.1.32:50000/tnsj"></property>
+        <property name="username" value="administrator"></property>
+        <property name="password" value="32kjym32"></property>
+    </bean>
+     <bean id="sessionFactory"
+        class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+        <property name="dataSource">
+            <ref bean="dataSource" />
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">
+                    org.hibernate.dialect.DB2Dialect
+                </prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.jdbc.use_get_generated_keys">
+                    true
+                </prop>
+            </props>
+        </property>
+        <property name="mappingResources">
+            <list>
+	           <value>com/hibernate/xml/Ddgl.hbm.xml</value>
+	           <value>com/hibernate/xml/Dzb.hbm.xml</value>
+	           <value>com/hibernate/xml/Spb.hbm.xml</value>
+	           <value>com/hibernate/xml/Usertb.hbm.xml</value>
+	           <value>com/hibernate/xml/Yhkb.hbm.xml</value>
+	           <value>com/hibernate/xml/Zhd.hbm.xml</value>
+	           <value>com/hibernate/xml/Yzxxb.hbm.xml</value>
+	           <value>com/hibernate/xml/Columnview.hbm.xml</value>
+	           <value>com/hibernate/xml/Tablesview.hbm.xml</value>
+            </list>
+        </property>
+    </bean>
+     <bean id="login" class="com.spring.logic.login">
+     <property name="usertbDAO">
+			<ref local="UsertbDAO" />
+		</property>
+		<property name="yzxxbDAO">
+			<ref local="YzxxbDAO" />
+		</property>
+     </bean>
+
+     <bean id="sjwh" class="com.spring.logic.Sjwh">
+     <property name="columnviewDAO">
+			<ref local="ColumnviewDAO" />
+		</property>
+		<property name="tablesviewDAO">
+			<ref local="TablesviewDAO" />
+		</property>
+     </bean>
+     <bean id="DdglDAO" class="com.hibernate.daoEXP.DdglDAOEXP">
+     	<property name="sessionFactory">
+     		<ref bean="sessionFactory" />
+     	</property>
+     </bean>
+     <bean id="DzbDAO" class="com.hibernate.daoEXP.DzbDAOEXP">
+     	<property name="sessionFactory">
+     		<ref bean="sessionFactory" />
+     	</property>
+     </bean>
+      <bean id="SpbDAO" class="com.hibernate.daoEXP.SpbDAOEXP">
+     	<property name="sessionFactory">
+     		<ref bean="sessionFactory" />
+     	</property>
+     </bean>
+      <bean id="UsertbDAO" class="com.hibernate.daoEXP.UsertbDAOEXP">
+     	<property name="sessionFactory">
+     		<ref bean="sessionFactory" />
+     	</property>
+     </bean>
+      <bean id="YhkbDAO" class="com.hibernate.daoEXP.YhkbDAOEXP">
+     	<property name="sessionFactory">
+     		<ref bean="sessionFactory" />
+     	</property>
+     </bean>
+     <bean id="ZhdDAO" class="com.hibernate.daoEXP.ZhdDAOEXP">
+     	<property name="sessionFactory">
+     		<ref bean="sessionFactory" />
+     	</property>
+     </bean>
+     <bean id="YzxxbDAO" class="com.hibernate.daoEXP.YzxxbDAOEXP">
+     	<property name="sessionFactory">
+     		<ref bean="sessionFactory" />
+     	</property>
+     </bean>
+     <bean id="ColumnviewDAO" class="com.hibernate.daoEXP.ColumnviewDAOEXP">
+     	<property name="sessionFactory">
+     		<ref bean="sessionFactory" />
+     	</property>
+     </bean>
+     <bean id="TablesviewDAO" class="com.hibernate.daoEXP.TablesviewDAOEXP">
+     	<property name="sessionFactory">
+     		<ref bean="sessionFactory" />
+     	</property>
+     </bean></beans>

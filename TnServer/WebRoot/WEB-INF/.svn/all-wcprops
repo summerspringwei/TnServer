@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/TnServer/!svn/ver/42/trunk/TnServer/WebRoot/WEB-INF
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/TnServer/!svn/ver/31/trunk/TnServer/WebRoot/WEB-INF/applicationContext.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/TnServer/!svn/ver/42/trunk/TnServer/WebRoot/WEB-INF/struts.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/TnServer/!svn/ver/38/trunk/TnServer/WebRoot/WEB-INF/web.xml
+END

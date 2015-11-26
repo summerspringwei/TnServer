@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/TnServer/!svn/ver/33/trunk/TnServer/WebRoot/WEB-INF/lib
+END
+xwork-core-2.1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/xwork-core-2.1.6.jar
+END
+commons-io-2.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/commons-io-2.0.1.jar
+END
+db2jcc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/db2jcc.jar
+END
+xwork-core-2.3.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/xwork-core-2.3.8.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/jta.jar
+END
+gson-2.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/gson-2.3.1.jar
+END
+jdom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/TnServer/!svn/ver/31/trunk/TnServer/WebRoot/WEB-INF/lib/jdom.jar
+END
+commons-collections-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/commons-collections-3.1.jar
+END
+commons-dbcp-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/commons-dbcp-1.4.jar
+END
+hibernate-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/hibernate-core.jar
+END
+spring-jdbc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/spring-jdbc.jar
+END
+slf4j-api-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/slf4j-api-1.6.1.jar
+END
+commons-lang-2.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TnServer/!svn/ver/31/trunk/TnServer/WebRoot/WEB-INF/lib/commons-lang-2.5.jar
+END
+ezmorph-1.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/TnServer/!svn/ver/31/trunk/TnServer/WebRoot/WEB-INF/lib/ezmorph-1.0.6.jar
+END
+hibernate-commons-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/hibernate-commons-annotations.jar
+END
+antlr-2.7.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/antlr-2.7.7.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar
+END
+freemarker-2.3.19.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/freemarker-2.3.19.jar
+END
+ognl-3.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/ognl-3.0.6.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar
+END
+struts2-spring-plugin-2.1.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/struts2-spring-plugin-2.1.8.jar
+END
+commons-beanutils-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TnServer/!svn/ver/31/trunk/TnServer/WebRoot/WEB-INF/lib/commons-beanutils-1.8.0.jar
+END
+commons-pool-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/commons-pool-1.6.jar
+END
+struts2-json-plugin-2.3.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/struts2-json-plugin-2.3.4.1.jar
+END
+spring.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/spring.jar
+END
+commons-fileupload-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/commons-fileupload-1.2.2.jar
+END
+struts2-core-2.3.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/struts2-core-2.3.8.jar
+END
+json-lib-2.3-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TnServer/!svn/ver/2/trunk/TnServer/WebRoot/WEB-INF/lib/json-lib-2.3-jdk15.jar
+END

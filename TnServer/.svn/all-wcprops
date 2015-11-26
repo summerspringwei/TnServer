@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/TnServer/!svn/ver/46/trunk/TnServer
+END
+hibernate.reveng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/TnServer/!svn/ver/46/trunk/TnServer/hibernate.reveng.xml
+END
+.myhibernatedata
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/TnServer/!svn/ver/46/trunk/TnServer/.myhibernatedata
+END
+.springBeans
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/TnServer/!svn/ver/2/trunk/TnServer/.springBeans
+END
+.mymetadata
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/TnServer/!svn/ver/3/trunk/TnServer/.mymetadata
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/TnServer/!svn/ver/2/trunk/TnServer/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/TnServer/!svn/ver/38/trunk/TnServer/.classpath
+END
